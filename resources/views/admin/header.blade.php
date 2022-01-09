@@ -13,11 +13,34 @@
     
 	<!-- Vendors Style-->  
 	<link rel="stylesheet" href="{{ asset('adminassets/main-dark')}}/css/vendors_css.css">
-	  
+	
 	<!-- Style-->  
 	<link rel="stylesheet" href="{{ asset('adminassets/main-dark')}}/css/style.css">
 	<link rel="stylesheet" href="{{ asset('adminassets/main-dark')}}/css/skin_color.css">
-     
+
+	<!-- style for content grid -->
+	<style>
+		.bd-example-row .row>.col, .bd-example-row .row>[class^=col-] {
+			padding-top: .75rem;
+			padding-bottom: .75rem;
+			background-color: rgba(86,61,124,.15);
+			border: 1px solid rgba(86,61,124,.2);
+		}
+		.bd-example-row .row+.row {
+			margin-top: 1rem;
+		}
+	</style>
+	
+	<!-- style for form -->
+	<!-- Style-->  
+	<link rel="stylesheet" href="{{ asset('adminassets/main-dark')}}/css/style.css">
+	<link rel="stylesheet" href="{{ asset('adminassets/main-dark')}}/css/skin_color.css">
+	<style type="text/css" media="screen">
+		.ace-editor { 
+			min-height: 300px;
+		}
+	</style>
+
   </head>
 
 <body class="hold-transition dark-skin sidebar-mini theme-primary fixed">

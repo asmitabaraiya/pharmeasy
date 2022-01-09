@@ -45,82 +45,137 @@
 
 
 
-    <div class="site-section py-5">
+    <div class="site-section py-5" data-aos="fade">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="feature">
-              <span class="wrap-icon flaticon-24-hours-drugs-delivery"></span>
-              <h3><a href="#">Free Delivery</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-              <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-            </div>
+            <h3 class="text-black h4">Why Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem assumenda, delectus. Amet repellendus quidem, fugiat.</p>
+            
           </div>
           <div class="col-lg-4">
-            <div class="feature">
-              <span class="wrap-icon flaticon-medicine"></span>
-              <h3><a href="#">New Medicine Everyday</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-              <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-            </div>
+            <h3 class="text-black h4">History</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda iste aut, ut similique nobis ab?</p>
+            
           </div>
           <div class="col-lg-4">
-            <div class="feature">
-              <span class="wrap-icon flaticon-test-tubes"></span>
-              <h3><a href="#">Medicines Guaranteed</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum voluptates excepturi neque labore .</p>
-              <p><a href="#" class="d-flex align-items-center"><span class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
+            <h3 class="text-black h4">Awards</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nisi magni in fugit, ad laudantium.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="site-section bg-light custom-border-bottom" data-aos="fade">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+
+
+          <div class="title-section text-center col-md-7">
+            <h2>Our <strong class="text-primary">Leadership</strong></h2>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5">
+    
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_1.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Elizabeth Graham</h3>
+                  <p class="block-38-subheading">CEO/Co-Founder</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_2.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Jennifer Greive</h3>
+                  <p class="block-38-subheading">Co-Founder</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_3.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Patrick Marx</h3>
+                  <p class="block-38-subheading">Marketing</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_4.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Mike Coolbert</h3>
+                  <p class="block-38-subheading">Sales Manager</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5">
+    
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_1.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Elizabeth Graham</h3>
+                  <p class="block-38-subheading">CEO/Co-Founder</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="block-38 text-center">
+              <div class="block-38-img">
+                <div class="block-38-header">
+                  <img src="{{asset('assets')}}/images/person_2.jpg" alt="Image placeholder" class="mb-4">
+                  <h3 class="block-38-heading h4">Jennifer Greive</h3>
+                  <p class="block-38-subheading">Co-Founder</p>
+                </div>
+                <div class="block-38-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio
+                    recusandae doloribus ut fugit officia voluptate soluta. </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="title-section text-center col-12">
-            <h2>Pharmacy <strong class="text-primary">Products</strong></h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 block-3 products-wrap">
-            <div class="nonloop-block-3 owl-carousel">
 
-              <div class="text-center item mb-4 item-v2">
-                <span class="onsale">Sale</span>
-                <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_03.png" alt="Image"></a>
-                <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
-              </div>
-
-              <div class="text-center item mb-4 item-v2">
-                <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_01.png" alt="Image"></a>
-                <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
-              </div>
-
-              <div class="text-center item mb-4 item-v2">
-                <span class="onsale">Sale</span>
-                <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_02.png" alt="Image"></a>
-                <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
-              </div>
-
-              <div class="text-center item mb-4 item-v2">
-                <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_04.png" alt="Image"></a>
-                <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section bg-image overlay" style="background-image: url('{{asset('assets')}}/images/hero_bg_2.jpg');">
+    <div class="site-section bg-image overlay" style="background-image: url('images/hero_bg_2.jpg');">
       <div class="container">
         <div class="row justify-content-center text-center">
          <div class="col-lg-7">
@@ -132,79 +187,37 @@
       </div>
     </div>
 
-    <div class="site-section">
+    <div class="site-section site-section-sm site-blocks-1 border-0" data-aos="fade">
       <div class="container">
-        
-        <div class="row justify-content-between">
-          <div class="col-lg-6">
-            <div class="title-section">
-              <h2>Happy <strong class="text-primary">Customers</strong></h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
+            <div class="icon mr-4 align-self-start">
+              <span class="icon-truck text-primary"></span>
             </div>
-            <div class="block-3 products-wrap">
-            <div class="owl-single no-direction owl-carousel">
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="{{asset('assets')}}/images/person_1.jpg" alt="Image" class="img-fluid">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;</p>
-                </blockquote>
-
-                <p class="author">&mdash; Kelly Holmes</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="{{asset('assets')}}/images/person_2.jpg" alt="Image" class="img-fluid">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p class="author">&mdash; Rebecca Morando</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="{{asset('assets')}}/images/person_3.jpg" alt="Image" class="img-fluid">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p class="author">&mdash; Lucas Gallone</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="{{asset('assets')}}/images/person_4.jpg" alt="Image" class="img-fluid">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p class="author">&mdash; Andrew Neel</p>
-              </div>
-        
+            <div class="text">
+              <h2>Free Shipping</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+                tincidunt fringilla.</p>
             </div>
           </div>
+          <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon mr-4 align-self-start">
+              <span class="icon-refresh2 text-primary"></span>
+            </div>
+            <div class="text">
+              <h2>Free Returns</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+                tincidunt fringilla.</p>
+            </div>
           </div>
-          <div class="col-lg-5">
-            <div class="title-section">
-              <h2 class="mb-5">Why <strong class="text-primary">Us</strong></h2>
-              <div class="step-number d-flex mb-4">
-                <span>1</span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
-              </div>
-
-              <div class="step-number d-flex mb-4">
-                <span>2</span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
-              </div>
-
-              <div class="step-number d-flex mb-4">
-                <span>3</span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore</p>
-              </div>
+          <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon mr-4 align-self-start">
+              <span class="icon-help text-primary"></span>
+            </div>
+            <div class="text">
+              <h2>Customer Support</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+                tincidunt fringilla.</p>
             </div>
           </div>
         </div>

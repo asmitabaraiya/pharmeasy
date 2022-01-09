@@ -1,3 +1,13 @@
+@php 
+
+  $route = Route::current()->getName();
+
+@endphp
+
+
+
+@include('login_model')
+@include('singin_model')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +30,12 @@
   <link rel="stylesheet" href="{{asset('assets')}}/css/aos.css">
 
   <link rel="stylesheet" href="{{asset('assets')}}/css/style.css">
+  <style>
+      .newClass{
+        color: #75b239;
+        position: relative;
+      }
+  </style>
 
 </head>
 
@@ -43,14 +59,14 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo">
             <div class="site-logo">
-              <a href="index.html" class="js-logo-clone"><strong class="text-primary">Pharma</strong>tive</a>
+              <a href="{{route('home')}}" class="js-logo-clone"><strong class="text-primary">Pharma</strong>tive</a>
             </div>
           </div>
           <div class="main-nav d-none d-lg-block">
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li><a href="{{route('home')}}">Home</a></li> 
-                <li><a href="{{route('shop')}}">Store</a></li>
+                <li class="{{ ($route == 'home') ? 'active' : '' }}" ><a href="{{route('home')}}">Home</a></li> 
+                <li  class="{{ ($route == 'shop') ? 'active' : '' }}" ><a href="{{route('shop')}}">Store</a></li>
                 <li class="has-children">
                   <a href="#">Products</a>
                   <ul class="dropdown">
@@ -69,8 +85,18 @@
                     
                   </ul>
                 </li>
-                <li class="active"><a href="{{route('about')}}">About</a></li>
-                <li><a href="{{route('contact')}}">Contact</a></li>
+                <li  class="{{ ($route == 'about') ? 'active' : '' }}" ><a href="{{route('about')}}">About</a></li>
+                <li  class="{{ ($route == 'contact') ? 'active' : '' }}" ><a href="{{route('contact')}}">Contact</a></li>
+                <li>
+                     <a href="" data-bs-toggle="modal" data-bs-target="#StaticBackdrop">
+                      Login
+                    </a>
+                </li>
+                <li>      
+                    <a onclick="myFunction()" href="" id="signlink" data-bs-toggle="modal" data-bs-target="#singinStaticBackdrop">
+                      Sing in
+                    </a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -86,3 +112,13 @@
         </div>
       </div>
     </div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+function myFunction() {
+  document.getElementById("signlink").color = "red";
+}
+</script>
+

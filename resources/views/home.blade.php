@@ -86,27 +86,27 @@
           <div class="col-md-12 block-3 products-wrap">
             <div class="nonloop-block-3 owl-carousel">
 
-              <div class="text-center item mb-4 item-v2">
+              <div class="text-center item mb-3 item-v2">
                 <span class="onsale">Sale</span>
                 <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_03.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
                 <p class="price">$120.00</p>
               </div>
 
-              <div class="text-center item mb-4 item-v2">
+              <div class="text-center item mb-3 item-v2">
                 <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_01.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
                 <p class="price">$120.00</p>
               </div>
 
-              <div class="text-center item mb-4 item-v2">
+              <div class="text-center item mb-3 item-v2">
                 <span class="onsale">Sale</span>
                 <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_02.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
                 <p class="price">$120.00</p>
               </div>
 
-              <div class="text-center item mb-4 item-v2">
+              <div class="text-center item mb-3 item-v2">
                 <a href="shop-single.html"> <img src="{{asset('assets')}}/images/product_04.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
                 <p class="price">$120.00</p>
@@ -124,7 +124,11 @@
          <div class="col-lg-7">
            <h3 class="text-white">Sign up for discount up to 55% OFF</h3>
            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam.</p>
-           <p class="mb-0"><a href="#" class="btn btn-outline-white">Sign up</a></p>
+           <p class="mb-0">
+           <a href="" class="btn btn-outline-white" data-bs-toggle="modal" data-bs-target="#singinStaticBackdrop">
+              Sign in
+           </a>             
+          </p>
          </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
 		
         <div class="user-profile">
 			<div class="ulogo">
-				 <a href="index.html">
+				 <a href="{{route('home1')}}">
 				  <!-- logo for regular state and mobile devices -->
 					 <div class="d-flex align-items-center justify-content-center">					 	
 						  <img src="{{ asset('adminassets')}}/images/logo-dark.png" alt="">
@@ -19,7 +19,7 @@
       <ul class="sidebar-menu" data-widget="tree">  
 		  
 		<li>
-          <a href="index.html">
+          <a href="{{route('home1')}}">
             <i data-feather="pie-chart"></i>
 			<span>Dashboard</span>
           </a>
@@ -34,8 +34,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="chat.html"><i class="ti-more"></i>Chat</a></li>
-            <li><a href="calendar.html"><i class="ti-more"></i>Calendar</a></li>
+            <li><a href="{{route('chat')}}"><i class="ti-more"></i>Chat</a></li>
+            <li><a href="{{route('calender')}}"><i class="ti-more"></i>Calendar</a></li>
           </ul>
         </li> 
 		  
@@ -47,9 +47,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="mailbox_inbox.html"><i class="ti-more"></i>Inbox</a></li>
-            <li><a href="mailbox_compose.html"><i class="ti-more"></i>Compose</a></li>
-            <li><a href="mailbox_read_mail.html"><i class="ti-more"></i>Read</a></li>
+          
+            <li><a href="{{route('mailbox_inbox')}}"><i class="ti-more"></i>Inbox</a></li>
+            <li><a href="{{route('mailbox_compose')}}"><i class="ti-more"></i>Compose</a></li>
+            <li><a href="{{route('mailbox_read_mail')}}"><i class="ti-more"></i>Read</a></li>
           </ul>
         </li>
 		
@@ -62,11 +63,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="profile.html"><i class="ti-more"></i>Profile</a></li>
-            <li><a href="invoice.html"><i class="ti-more"></i>Invoice</a></li>
-            <li><a href="gallery.html"><i class="ti-more"></i>Gallery</a></li>
-            <li><a href="faq.html"><i class="ti-more"></i>FAQs</a></li>
-            <li><a href="timeline.html"><i class="ti-more"></i>Timeline</a></li>
+            <li><a href="{{route('profile')}}"><i class="ti-more"></i>Profile</a></li>
+            <li><a href="{{route('invoice')}}"><i class="ti-more"></i>Invoice</a></li>
+            <li><a href="{{route('gallery')}}"><i class="ti-more"></i>Gallery</a></li>
+            <li><a href="{{route('faq')}}"><i class="ti-more"></i>FAQs</a></li>
+            <li><a href="{{route('timeline')}}"><i class="ti-more"></i>Timeline</a></li>
           </ul>
         </li> 		  
 		 
@@ -81,14 +82,14 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="components_alerts.html"><i class="ti-more"></i>Alerts</a></li>
-            <li><a href="components_badges.html"><i class="ti-more"></i>Badge</a></li>
-            <li><a href="components_buttons.html"><i class="ti-more"></i>Buttons</a></li>
-            <li><a href="components_sliders.html"><i class="ti-more"></i>Sliders</a></li>
-            <li><a href="components_dropdown.html"><i class="ti-more"></i>Dropdown</a></li>
-            <li><a href="components_modals.html"><i class="ti-more"></i>Modal</a></li>
-            <li><a href="components_nestable.html"><i class="ti-more"></i>Nestable</a></li>
-            <li><a href="components_progress_bars.html"><i class="ti-more"></i>Progress Bars</a></li>
+            <li><a href="{{route('components_alerts')}}"><i class="ti-more"></i>Alerts</a></li>
+            <li><a href="{{route('components_badges')}}"><i class="ti-more"></i>Badge</a></li>
+            <li><a href="{{route('components_buttons')}}"><i class="ti-more"></i>Buttons</a></li>
+            <li><a href="{{route('components_sliders')}}"><i class="ti-more"></i>Sliders</a></li>
+            <li><a href="{{route('components_dropdown')}}"><i class="ti-more"></i>Dropdown</a></li>
+            <li><a href="{{route('components_modals')}}"><i class="ti-more"></i>Modal</a></li>
+            <li><a href="{{route('components_nestable')}}"><i class="ti-more"></i>Nestable</a></li>
+            <li><a href="{{route('components_progress_bars')}}"><i class="ti-more"></i>Progress Bars</a></li>
           </ul>
         </li>
 		
@@ -101,9 +102,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-			<li><a href="card_advanced.html"><i class="ti-more"></i>Advanced Cards</a></li>
-			<li><a href="card_basic.html"><i class="ti-more"></i>Basic Cards</a></li>
-			<li><a href="card_color.html"><i class="ti-more"></i>Cards Color</a></li>
+			<li><a href="{{route('card_advanced')}}"><i class="ti-more"></i>Advanced Cards</a></li>
+			<li><a href="{{route('card_basic')}}"><i class="ti-more"></i>Basic Cards</a></li>
+			<li><a href="{{route('card_color')}}"><i class="ti-more"></i>Cards Color</a></li>
 		  </ul>
         </li>  
 		  
@@ -116,9 +117,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="content_typography.html"><i class="ti-more"></i>Typography</a></li>
-            <li><a href="content_media.html"><i class="ti-more"></i>Media</a></li>
-            <li><a href="content_grid.html"><i class="ti-more"></i>Grid</a></li>
+            <li><a href="{{route('content_typography')}}"><i class="ti-more"></i>Typography</a></li>
+            <li><a href="{{route('content_media')}}"><i class="ti-more"></i>Media</a></li>
+            <li><a href="{{route('content_grid')}}"><i class="ti-more"></i>Grid</a></li>
           </ul>
         </li>
 		  
@@ -131,11 +132,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="utilities_border.html"><i class="ti-more"></i>Border</a></li>
-            <li><a href="utilities_color.html"><i class="ti-more"></i>Color</a></li>
-            <li><a href="utilities_ribbons.html"><i class="ti-more"></i>Ribbons</a></li>
-            <li><a href="utilities_tab.html"><i class="ti-more"></i>Tabs</a></li>
-            <li><a href="utilities_animations.html"><i class="ti-more"></i>Animation</a></li>
+            <li><a href="{{route('utilities_border')}}"><i class="ti-more"></i>Border</a></li>
+            <li><a href="{{route('utilities_color')}}"><i class="ti-more"></i>Color</a></li>
+            <li><a href="{{route('utilities_ribbons')}}"><i class="ti-more"></i>Ribbons</a></li>
+            <li><a href="{{route('utilities_tab')}}"><i class="ti-more"></i>Tabs</a></li>
+            <li><a href="{{route('utilities_animations')}}"><i class="ti-more"></i>Animation</a></li>
           </ul>
         </li>
 		  
@@ -148,14 +149,14 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="icons_fontawesome.html"><i class="ti-more"></i>Font Awesome</a></li>
-            <li><a href="icons_glyphicons.html"><i class="ti-more"></i>Glyphicons</a></li>
-            <li><a href="icons_material.html"><i class="ti-more"></i>Material Icons</a></li>	
-            <li><a href="icons_themify.html"><i class="ti-more"></i>Themify Icons</a></li>
-            <li><a href="icons_simpleline.html"><i class="ti-more"></i>Simple Line Icons</a></li>
-            <li><a href="icons_cryptocoins.html"><i class="ti-more"></i>Cryptocoins Icons</a></li>
-            <li><a href="icons_flag.html"><i class="ti-more"></i>Flag Icons</a></li>
-            <li><a href="icons_weather.html"><i class="ti-more"></i>Weather Icons</a></li>
+            <li><a href="{{route('icons_fontawesome')}}"><i class="ti-more"></i>Font Awesome</a></li>
+            <li><a href="{{route('icons_glyphicons')}}"><i class="ti-more"></i>Glyphicons</a></li>
+            <li><a href="{{route('icons_material')}}"><i class="ti-more"></i>Material Icons</a></li>	
+            <li><a href="{{route('icons_themify')}}"><i class="ti-more"></i>Themify Icons</a></li>
+            <li><a href="{{route('icons_simpleline')}}"><i class="ti-more"></i>Simple Line Icons</a></li>
+            <li><a href="{{route('icons_cryptocoins')}}"><i class="ti-more"></i>Cryptocoins Icons</a></li>
+            <li><a href="{{route('icons_flag')}}"><i class="ti-more"></i>Flag Icons</a></li>
+            <li><a href="{{route('icons_weather')}}"><i class="ti-more"></i>Weather Icons</a></li>
           </ul>
         </li> 
 		  
@@ -168,13 +169,13 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="forms_advanced.html"><i class="ti-more"></i>Advanced Elements</a></li>
-            <li><a href="forms_editors.html"><i class="ti-more"></i>Editors</a></li>
-            <li><a href="forms_code_editor.html"><i class="ti-more"></i>Code Editor</a></li>
-            <li><a href="forms_validation.html"><i class="ti-more"></i>Form Validation</a></li>
-            <li><a href="forms_wizard.html"><i class="ti-more"></i>Form Wizard</a></li>
-            <li><a href="forms_general.html"><i class="ti-more"></i>General Elements</a></li>
-            <li><a href="forms_dropzone.html"><i class="ti-more"></i>Dropzone</a></li>
+            <li><a href="{{route('forms_advanced')}}"><i class="ti-more"></i>Advanced Elements</a></li>
+            <li><a href="{{route('forms_editors')}}"><i class="ti-more"></i>Editors</a></li>
+            <li><a href="{{route('forms_code_editor')}}"><i class="ti-more"></i>Code Editor</a></li>
+            <li><a href="{{route('forms_validation')}}"><i class="ti-more"></i>Form Validation</a></li>
+            <li><a href="{{route('forms_wizard')}}"><i class="ti-more"></i>Form Wizard</a></li>
+            <li><a href="{{route('forms_general')}}"><i class="ti-more"></i>General Elements</a></li>
+            <li><a href="{{route('forms_dropzone')}}"><i class="ti-more"></i>Dropzone</a></li>
           </ul>
         </li>
 		<li class="treeview">
@@ -186,8 +187,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="tables_simple.html"><i class="ti-more"></i>Simple tables</a></li>
-            <li><a href="tables_data.html"><i class="ti-more"></i>Data tables</a></li>
+            <li><a href="{{route('tables_simple')}}"><i class="ti-more"></i>Simple tables</a></li>
+            <li><a href="{{route('tables_data')}}"><i class="ti-more"></i>Data tables</a></li>
           </ul>
         </li>
 		  
@@ -200,12 +201,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="charts_chartjs.html"><i class="ti-more"></i>ChartJS</a></li>
-            <li><a href="charts_flot.html"><i class="ti-more"></i>Flot</a></li>
-            <li><a href="charts_inline.html"><i class="ti-more"></i>Inline</a></li>	
-            <li><a href="charts_morris.html"><i class="ti-more"></i>Morris</a></li>
-            <li><a href="charts_peity.html"><i class="ti-more"></i>Peity</a></li>
-            <li><a href="charts_chartist.html"><i class="ti-more"></i>Chartist</a></li>
+          <li><a href="{{route('charts_chartjs')}}"><i class="ti-more"></i>ChartJS</a></li>
+            <li><a href="{{route('charts_flot')}}"><i class="ti-more"></i>Flot</a></li>
+            <li><a href="{{route('charts_inline')}}"><i class="ti-more"></i>Inline</a></li>	
+            <li><a href="{{route('charts_morris')}}"><i class="ti-more"></i>Morris</a></li>
+            <li><a href="{{route('charts_peity')}}"><i class="ti-more"></i>Peity</a></li>
+            <li><a href="{{route('charts_chartist')}}"><i class="ti-more"></i>Chartist</a></li>
           </ul>
         </li>  
 		  
@@ -218,8 +219,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="map_google.html"><i class="ti-more"></i>Google Map</a></li>
-            <li><a href="map_vector.html"><i class="ti-more"></i>Vector Map</a></li>
+            <li><a href="{{route('map_google')}}"><i class="ti-more"></i>Google Map</a></li>
+            <li><a href="{{route('map_vector')}}"><i class="ti-more"></i>Vector Map</a></li>
           </ul>
         </li> 			  
 		  
@@ -232,12 +233,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="auth_login.html"><i class="ti-more"></i>Login</a></li>
-			<li><a href="auth_register.html"><i class="ti-more"></i>Register</a></li>
-			<li><a href="auth_lockscreen.html"><i class="ti-more"></i>Lockscreen</a></li>
-			<li><a href="auth_user_pass.html"><i class="ti-more"></i>Password</a></li>
-			<li><a href="error_404.html"><i class="ti-more"></i>Error 404</a></li>
-			<li><a href="error_maintenance.html"><i class="ti-more"></i>Maintenance</a></li>	
+            <li><a href="{{route('auth_login')}}"><i class="ti-more"></i>Login</a></li>
+			<li><a href="{{route('auth_register')}}"><i class="ti-more"></i>Register</a></li>
+			<li><a href="{{route('auth_lockscreen')}}"><i class="ti-more"></i>Lockscreen</a></li>
+			<li><a href="{{route('auth_user_pass')}}"><i class="ti-more"></i>Password</a></li>
+			<li><a href="{{route('error_404')}}"><i class="ti-more"></i>Error 404</a></li>
+			<li><a href="{{route('error_maintenance')}}"><i class="ti-more"></i>Maintenance</a></li>	
           </ul>
         </li> 		  		  
 		  
@@ -279,7 +280,7 @@
         </li>  
 		  
 		<li>
-          <a href="auth_login.html">
+          <a href="{{route('auth_login')}}">
             <i data-feather="lock"></i>
 			<span>Log Out</span>
           </a>
@@ -292,7 +293,7 @@
 		<!-- item-->
 		<a href="javascript:void(0)" class="link" data-toggle="tooltip" title="" data-original-title="Settings" aria-describedby="tooltip92529"><i class="ti-settings"></i></a>
 		<!-- item-->
-		<a href="mailbox_inbox.html" class="link" data-toggle="tooltip" title="" data-original-title="Email"><i class="ti-email"></i></a>
+		<a href="mailbox_inbox')}}" class="link" data-toggle="tooltip" title="" data-original-title="Email"><i class="ti-email"></i></a>
 		<!-- item-->
 		<a href="javascript:void(0)" class="link" data-toggle="tooltip" title="" data-original-title="Logout"><i class="ti-lock"></i></a>
 	</div>

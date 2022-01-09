@@ -289,11 +289,160 @@
 	<script src="{{ asset('adminassets')}}/assets/vendor_components/easypiechart/dist/jquery.easypiechart.js"></script>
 	<script src="{{ asset('adminassets')}}/assets/vendor_components/apexcharts-bundle/irregular-data-series.js"></script>
 	<script src="{{ asset('adminassets')}}/assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
+
+	<!-- Charts JS -->
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/widget-chartist.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/chartist-js-develop/chartist.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/Flot/jquery.flot.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/Flot/jquery.flot.resize.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/Flot/jquery.flot.pie.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/Flot/jquery.flot.categories.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/widget-flot-charts.js"></script>
 	
+	<script src="{{ asset('adminassets')}}/assets/icons/feather-icons/feather.min.js"></script>	
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jquery-knob/js/jquery.knob.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/widget-inline-charts.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/raphael/raphael.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/morris.js/morris.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/widget-morris-charts.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/icons/feather-icons/feather.min.js"></script>	
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jquery.peity/jquery.peity.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/peity.js"></script>
+	<!-- end charts -->
+	
+	<!-- chat -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/Magnific-Popup-master/dist/jquery.magnific-popup-init.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/app-chat.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/chart.js-master/Chart.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/widget-charts2.js"></script>
+	<!-- end chat -->
+
+	<!-- componets -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jquery-toast-plugin-master/src/jquery.toast.js"></script>
+    <script src="{{ asset('adminassets/main-dark')}}/js/pages/toastr.js"></script>
+    <script src="{{ asset('adminassets/main-dark')}}/js/pages/notification.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/nestable/jquery.nestable.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/nestable.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/bootstrap-slider/bootstrap-slider.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/OwlCarousel2/dist/owl.carousel.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/flexslider/jquery.flexslider.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/slider.js"></script>
+	<!-- end componets -->
+
+	<!-- content grid -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/prism/prism.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/media.js"></script>
+	<!-- end content grid -->
+
+	<!-- forms JS -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/select2/dist/js/select2.full.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/input-mask/jquery.inputmask.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/input-mask/jquery.inputmask.extensions.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/moment/min/moment.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/timepicker/bootstrap-timepicker.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/iCheck/icheck.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/advanced-form-element.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/ace-builds-master/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/form-code-editor.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/dropzone/dropzone.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/ckeditor/ckeditor.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/editor.js"></script>
+	
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/validation.js"></script>
+    <script src="{{ asset('adminassets/main-dark')}}/js/pages/form-validation.js"></script>
+	
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jquery-steps-master/build/jquery.steps.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jquery-validation-1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/sweetalert/sweetalert.min.js"></script>
+    <script src="{{ asset('adminassets/main-dark')}}/js/pages/steps.js"></script>
+	
+	<script type="text/javascript" src="{{ asset('adminassets')}}/assets/vendor_components/gallery/js/animated-masonry-gallery.js"></script>
+    <script type="text/javascript" src="{{ asset('adminassets')}}/assets/vendor_components/gallery/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="{{ asset('adminassets')}}/assets/vendor_components/lightbox-master/dist/ekko-lightbox.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/gallery.js"></script>      
+	<!--End forms JS -->
+
+	<!-- icon js -->
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/icons.js"></script>
+	<!-- end icon -->
+
+	<!-- invoice mail js -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/JqueryPrintArea/demo/jquery.PrintArea.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/invoice.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/iCheck/icheck.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/form-compose.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_plugins/iCheck/icheck.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/mailbox.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+	<!-- end invoice JS -->
+
+	<!-- map JS -->
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/gmaps/gmaps.min.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/gmaps/jquery.gmaps.js"></script>
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-in-mill.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-uk-mill-en.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jquery-jvectormap-au-mill.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/jvectormap/lib2/jvectormap.custom.js"></script>
+	
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/timeline.js"></script>
+	<!-- End map JS -->
+
+	<!-- Table JS -->
+
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/datatable/datatables.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/data-table.js"></script>
+
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/component-animations-css3.js"></script>
+	<!-- End Table JS -->
+
+	<!-- calender JS -->
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="{{ asset('adminassets')}}/assets/vendor_components/perfect-scrollbar-master/perfect-scrollbar.jquery.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/fullcalendar/lib/moment.min.js"></script>
+	<script src="{{ asset('adminassets')}}/assets/vendor_components/fullcalendar/fullcalendar.min.js"></script>
+	<script src="{{ asset('adminassets/main-dark')}}/js/pages/calendar.js"></script>
+    <!-- END calender JS -->
+    
+	
+
 	<!-- Sunny Admin App -->
 	<script src="{{ asset('adminassets/main-dark')}}/js/template.js"></script>
 	<script src="{{ asset('adminassets/main-dark')}}/js/pages/dashboard.js"></script>
 	
 	
+	
+	
+	
+	
+
 </body>
 </html>

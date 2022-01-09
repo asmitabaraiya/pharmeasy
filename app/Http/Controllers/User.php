@@ -34,4 +34,6 @@ class User extends Controller
     public function thankyou(){
         return view('thankyou');
     }
+
+   
 }
